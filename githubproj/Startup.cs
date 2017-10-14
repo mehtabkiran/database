@@ -81,7 +81,7 @@ namespace githubproj
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=first}/{action=hello}/{id?}");
             });
         }
     }
